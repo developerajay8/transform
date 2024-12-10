@@ -181,7 +181,7 @@ export default function page() {
               </span>
             </div>
             <p className="text-white font-poppins text-[20px] py-[20px] font-semibold">
-              "Our Customized Package is the ultimate option for individuals
+              Our Customized Package is the ultimate option for individuals
               seeking a full personality transformation.
             </p>
 

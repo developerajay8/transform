@@ -3,7 +3,6 @@ import Image from "next/image";
 import Logo from "../../../public/F78FB7D5-D2E8-41EB-9A28-99BCE327BA3E-28314-000019438A04710F 1 (3).png";
 import about from "../../../public/about.png";
 import { FaArrowRightLong } from "react-icons/fa6";
-import Link from "next/link";
 
 export default function page() {
   return (
