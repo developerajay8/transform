@@ -22,3 +22,36 @@
   padding: 0px;
   margin: 0px;
 }
+
+
+
+
+
+/* styles/globals.css or a custom CSS file */
+
+.slider-container {
+  width: 1920px;
+  height: 100vh; /* Adjust as needed */
+  overflow: hidden;
+  position: relative;
+}
+
+.slider-images {
+  display: flex;
+  /* flex-direction: column; */
+  height: 100%;
+  transition: transform 1s ease-in-out; /* Smooth transition for scrolling */
+}
+
+.slider-image {
+  height: 100%;
+  width: 100%;
+  background-size: cover;
+  /* background-position: center; */
+  transition: opacity 1s ease-in-out;
+  opacity: 0.5; /* Initially set opacity to 0.5 */
+}
+
+.slider-image.active {
+  opacity: 1; /* Active image will be fully visible */
+}

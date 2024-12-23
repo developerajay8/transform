@@ -1,19 +1,29 @@
 import React from "react";
 import Image from "next/image";
 import Logo from "../../../public/F78FB7D5-D2E8-41EB-9A28-99BCE327BA3E-28314-000019438A04710F 1 (3).png";
-import about from "../../../public/about.png";
+import Whyneed from "../../../public/danie-franco-7KHCNCddn2U-unsplash 1.png";
+import Whyneed2 from "../../../public/nik-shuliahin-BuNWp1bL0nc-unsplash 1.png";
+import about from "../../../public/about 1.png";
+import Benifits from "../../../public/Benifits.png";
+import Benifits2 from "../../../public/Benifits2.png";
+import Benifits3 from "../../../public/Benifits3.png";
+import Benifits4 from "../../../public/Benifits4.png";
+import Whychoose from "../../../public/IMG_0047.png";
 import { FaArrowRightLong } from "react-icons/fa6";
+import Sliderhome from "../sliderhome/page"
 
 export default function page() {
   return (
     <>
       <div className="w-full mx-auto bg-black">
-        <Image
+        {/* <Image
           src={Logo}
           alt="Home Banner"
           className="w-[100%] sm:h-[100vh] h-[70vh]"
-        />
+        /> */}
+      <Sliderhome/>
       </div>
+      
 
       {/* <section className="py-12 bg-black ">
         <div className=" mx-auto max-w-[1204px] px-[18px] xl:px-[0px] flex flex-col-reverse md:flex-row items-center gap-6 ">
@@ -110,7 +120,7 @@ export default function page() {
           {/* Right Side: Image */}
           <div className="w-full md:w-1/2 flex justify-center">
             <Image
-              src={about} // Replace with your image path
+              src={Whychoose} // Replace with your image path
               alt="About Us"
               className=""
             />
@@ -162,14 +172,14 @@ export default function page() {
             </div>
             <div className="sm:flex gap-5 pt-5">
               <Image
-                src={about}
+                src={Whyneed}
                 alt="Home Banner"
-                className="lg:max-w-[275px] sm:w-[49%] h-[400px]"
+                className="lg:max-w-[275px]  h-[400px]"
               />
               <Image
-                src={about}
+                src={Whyneed2}
                 alt="Home Banner"
-                className="lg:max-w-[275px] sm:w-[48%] h-[400px] sm:pt-0 pt-[15px]"
+                className="lg:max-w-[275px] h-[400px] sm:pt-0 pt-[15px] "
               />
             </div>
           </div>
@@ -248,16 +258,16 @@ export default function page() {
           </div>
           <div className="grid lg:grid-cols-4 sm:grid-cols-2 grid-cols-1  gap-5 pt-[18px]">
             <div className="col-span-1">
-              <Image src={about} alt="" className="" />
+              <Image src={Benifits} alt="" className="" />
             </div>
             <div className="col-span-1">
-              <Image src={about} alt="" className="" />
+              <Image src={Benifits2} alt="" className="" />
             </div>
             <div className="col-span-1">
-              <Image src={about} alt="" className="" />
+              <Image src={Benifits3} alt="" className="" />
             </div>
             <div className="col-span-1">
-              <Image src={about} alt="" className="" />
+              <Image src={Benifits4} alt="" className="" />
             </div>
           </div>
         </div>

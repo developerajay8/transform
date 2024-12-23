@@ -1,9 +1,11 @@
 import React from "react";
 import Image from "next/image";
-import about from "../../../public/about.png";
+import about from "../../../public/about 1.png";
 import { FaArrowRightLong } from "react-icons/fa6";
 import Navbar from "../components/Navbar/page";
-import Footer2 from '../components/footer2/page'
+import Footer2 from '../components/footer2/page';
+import Whyneed from "../../../public/danie-franco-7KHCNCddn2U-unsplash 1.png";
+import Whyneed2 from "../../../public/nik-shuliahin-BuNWp1bL0nc-unsplash 1.png";
 import Logo from "../../../public/F78FB7D5-D2E8-41EB-9A28-99BCE327BA3E-28314-000019438A04710F 1 (3).png";
 
 export default function Page() {
@@ -28,17 +30,20 @@ export default function Page() {
               <h2 className="uppercase text-[50px] leading-[56px] font-handel">
                 WHY YOU MAY NEED CONSULTING{" "}
               </h2>
+              <span className="text-[20px] font-poppins mt-[30px] font-semibold">
+                IS IT TIME FOR A CHANGE?
+              </span>
             </div>
             <div className="sm:flex gap-5 pt-5">
               <Image
-                src={about}
+                src={Whyneed}
                 alt="Home Banner"
-                className="lg:max-w-[275px] sm:w-[49%] h-[400px]"
+                className="lg:max-w-[275px]  h-[400px]"
               />
               <Image
-                src={about}
+                src={Whyneed2}
                 alt="Home Banner"
-                className="lg:max-w-[275px] sm:w-[48%] h-[400px] sm:pt-0 pt-[15px]"
+                className="lg:max-w-[275px] h-[400px] sm:pt-0 pt-[15px] "
               />
             </div>
           </div>
@@ -88,6 +93,7 @@ export default function Page() {
                 fulfillment.
               </li>
             </ul>
+           
           </div>
         </div>
       </section>

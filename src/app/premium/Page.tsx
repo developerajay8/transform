@@ -1,16 +1,16 @@
 import React from 'react'
 import Navbar from '../components/Navbar/page'
-import Footer from '../components/footer/page'
+import Footer2 from '../components/footer2/page'
 import { FaArrowRightLong } from "react-icons/fa6";
-import about from "../../../public/about.png";
+import about from "../../../public/about 1.png";
 import Image from 'next/image';
 
-export default function Page() {
+export default function page() {
   return (
     <div>
       <Navbar/>
 
-      <section className="bg-white py-12 " id='Premium'>
+      <section className="bg-white py-12 " >
         <div className="font-handel max-w-[1204px] mx-auto px-[18px] xl:px-[0px] md:text-[40px] sm:text-[37px] text-[33px] pb-[14px] leading-[50px] font-semibold text-[rgb(255,80,45)]">
           PREMIUM PACKAGE - ONE-ON-ONE TRANSFORMATION
         </div>
@@ -57,7 +57,7 @@ export default function Page() {
         </div>
       </section>
 
-      <Footer/>
+      <Footer2/>
     </div>
   )
 }
