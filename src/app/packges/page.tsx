@@ -5,7 +5,6 @@ import about from "../../../public/about 1.png";
 
 import Navbar from '../components/Navbar/page'
 import Footer2 from '../components/footer2/page'
-import { FaArrowRightLong } from "react-icons/fa6";
 import Link from "next/link";
 export default function page() {
   return (

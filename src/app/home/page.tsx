@@ -10,68 +10,23 @@ import Benifits3 from "../../../public/Benifits3.png";
 import Benifits4 from "../../../public/Benifits4.png";
 import Whychoose from "../../../public/IMG_0047.png";
 import { FaArrowRightLong } from "react-icons/fa6";
-import Sliderhome from "../sliderhome/page"
 
 export default function page() {
   return (
     <>
       <div className="w-full mx-auto bg-black">
-        {/* <Image
+        <Image
           src={Logo}
           alt="Home Banner"
           className="w-[100%] sm:h-[100vh] h-[70vh]"
-        /> */}
-      <Sliderhome/>
+        />
       </div>
       
 
-      {/* <section className="py-12 bg-black ">
-        <div className=" mx-auto max-w-[1204px] px-[18px] xl:px-[0px] flex flex-col-reverse md:flex-row items-center gap-6 ">
-          <div className="w-full md:w-1/2 text-center md:text-left space-y-4">
-            <h1 className="text-[62px] leading-[72px] font-handel uppercase font-bold text-white">
-              About sakshi <br /> bhogal
-            </h1>
-            <div className="flex items-center gap-8 pt-[20px]">
-              <span className="text-white uppercase font-bold text-[22px] ">
-                About me
-              </span>
-              <FaArrowRightLong className="text-[rgb(255,80,45)] text-4xl" />
-            </div>
-
-            <ul className="text-left list-disc pl-[20px]">
-              <li className="text-white  leading-relaxed  font-poppins pr-[50px]">
-                Sakshi Bhogal is a recognized expert in personality
-                transformation, with over a decade of experience. Specializing
-                in relationship consulting, she leverages her deep understanding
-                of human psychology to help individuals unlock their true
-                potential.
-              </li>
-              <li className="text-white leading-relaxed font-poppins pr-[50px] pt-[10px]">
-                Sakshi has successfully guided numerous clients in navigating
-                complex relationships, overcoming personal challenges, and
-                achieving their goals with confidence and self-awareness.
-              </li>
-              <li className="text-white leading-relaxed font-poppins pr-[50px] pt-[10px]">
-                Her approach combines psychological insights with actionable
-                steps, making her a trusted guide for personal and professional
-                growth
-              </li>
-            </ul>
-          </div>
-
-          <div className="w-full md:w-1/2 flex justify-center">
-            <Image
-              src={about} 
-              alt="About Us"
-              className=""
-            />
-          </div>
-        </div>
-      </section> */}
+     
 
       <section className="py-12 bg-black">
         <div className="mx-auto max-w-[1204px] px-[18px] xl:px-[0px] grid lg:grid-cols-2 grid-cols-1 gap-6">
-          {/* Left Side: Content */}
           <div className="col-span-1 text-center md:text-left space-y-4 my-auto">
             <h1 className=" sm:text-[62px] text-[56px] leading-[72px] font-handel uppercase font-bold text-white">
               About sakshi <br className="sm:block hidden" /> bhogal
@@ -104,10 +59,9 @@ export default function page() {
             </ul>
           </div>
 
-          {/* Right Side: Image */}
           <div className="col-span-1 flex sm:justify-center">
             <Image
-              src={about} // Replace with your image path
+              src={about}
               alt="About Us"
               className=""
             />
