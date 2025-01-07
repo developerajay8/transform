@@ -36,7 +36,7 @@ export default function Page() {
                 About Sakshi
               </Link>
               <Link
-                href="/Achievements"
+                href="/achievements"
                 className="text-white hover:text-orange-600"
               >
                 Achievements
