@@ -94,7 +94,7 @@ export default function page() {
               <p className="text-black font-poppins sm:text-[18px] text-[16px] pt-[30px]">Contact Information: </p>
                 <ul className="sm:text-[16px] text-[14px] font-poppins text-[black] list-disc pt-[20px] pl-[30px]">
                   <li>Email: <Link href={''} className="hover:text-[rgb(255,80,45)]">transformwithsakshi@gmail.com</Link></li>
-                  <li>Phone: <Link href={''} className="hover:text-[rgb(255,80,45)]">+916377927068</Link></li>
+                  <li>Phone: <Link href={''} className="hover:text-[rgb(255,80,45)]">+916377927268</Link></li>
                   <li>Social Media: <Link href={''} className="underline hover:text-[rgb(255,80,45)] ">Instagram Handles</Link></li>
                 </ul>
 

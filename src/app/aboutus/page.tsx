@@ -12,7 +12,7 @@ import Link from "next/link";
 
 export default function page() {
   return (
-    <div>
+    <div className="overflow-hidden">
       <div className="bg-gray-100 ">
         <Navbar />
       </div>
@@ -75,7 +75,7 @@ export default function page() {
         <div className="max-w-[1204px] px-[18px] xl:px-[0px] gap-5 mx-auto text-white grid lg:grid-cols-2 grid-cols-1">
           <div className="col-span-1">
             <div className="">
-              <h2 className="uppercase text-[50px] leading-[56px] font-handel">
+              <h2 className="uppercase md:text-[50px] text-[30px] md:leading-[56px] leading-[32px] font-handel">
                 WHY YOU MAY NEED CONSULTING{" "}
               </h2>
               <span className="text-[20px] font-poppins mt-[30px] font-semibold">
@@ -149,14 +149,14 @@ export default function page() {
       <section className="py-12 bg-white">
         <div className="max-w-[1204px] mx-auto px-[18px] xl:px-[0px]">
           <div className="">
-            <h1 className="uppercase font-bold md:text-[44px] sm:text-[40px] text-[30px] text-[black] font-handel sm:leading-[55px] leading-[40px]">
+            <h1 className="uppercase font-bold md:text-[44px] sm:text-[30px] text-[22px] text-[black] font-handel sm:leading-[55px] leading-[30px]">
               BEGIN YOUR TRANSFORMATION JOURNEY WITH SAKSHI BHOGAL
             </h1>
           </div>
           <div className="grid grid-cols-12 gap-8">
             <div className="md:col-span-5 col-span-12
              my-auto">
-              <ul className="list-disc sm:text-[18px] text-[16px] font-poppins sm:pl-[60px] pl-[40px] pt-[18px]">
+              <ul className="list-disc sm:text-[18px] text-[16px] font-poppins md:pl-[51px] sm:pl-[30px] pl-[20px] pt-[18px]">
                 <li>
                   Welcome to Transform with Sakshi, where your personal and
                   professional growth journey begins. Our mission is to help you
@@ -175,7 +175,7 @@ export default function page() {
                 <Image
                   src={Logo}
                   alt="Home Banner"
-                  className="sm:h-[530px] sm:w-[] max-w-[500px]"
+                  className="sm:h-[530px] "
                 />
               </div>
             </div>
@@ -193,9 +193,9 @@ export default function page() {
               <p className="text-white font-poppins sm:text-[18px] text-[16px] pt-[10px]">Are you ready to transform your personality and unlock your potential? Contact us today to learn more about our packages and begin your journey. </p>
 
               <p className="text-white font-poppins sm:text-[18px] text-[16px] pt-[30px]">Contact Information: </p>
-                <ul className="sm:text-[16px] text-[14px] font-poppins text-[white] list-disc pt-[20px] pl-[30px]">
+                <ul className="sm:text-[16px] text-[12px] font-poppins text-[white] list-disc pt-[20px] sm:pl-[30px] pl-[10px]">
                   <li>Email: <Link href={''} className="hover:text-[rgb(255,80,45)]">transformwithsakshi@gmail.com</Link></li>
-                  <li>Phone: <Link href={''} className="hover:text-[rgb(255,80,45)]">+916377927068</Link></li>
+                  <li>Phone: <Link href={''} className="hover:text-[rgb(255,80,45)]">+916377927268</Link></li>
                   <li>Social Media: <Link href={''} className="underline hover:text-[rgb(255,80,45)] ">Instagram Handles</Link></li>
                 </ul>
 

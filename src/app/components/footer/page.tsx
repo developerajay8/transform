@@ -7,7 +7,7 @@ export default function page() {
       <footer className="bg-white py-8 text-black">
         <div className="container mx-auto max-w-[1204px] px-[18px] xl:px-[0px] grid grid-cols-1 md:grid-cols-3 gap-8">
           <div>
-            <h2 className="md:text-[32px]  sm:text-[30px] text-[28px] leading-[42px] font-handel uppercase font-bold mb-4 text-[black]">
+            <h2 className="md:text-[32px]  sm:text-[28px] text-[26px] leading-[42px] font-handel uppercase font-bold mb-4 text-[black]">
               About Sakshi Bhogal
             </h2>
             <p className="lg:text-[18px] text-[16px] font-poppins text-left text-black">
@@ -54,27 +54,27 @@ export default function page() {
                 Email:{" "}
                 <a
                   href="mailto:sakshi@example.com"
-                  className=" hover:text-[rgb(255,80,45)]"
+                  className=" hover:text-[rgb(255,80,45)] text-[14px]"
                 >
-                  sakshi@example.com
+                  transformwithsakshi@gmail.com
                 </a>
               </li>
               <li>
                 Mobile:{" "}
                 <a
-                  href="tel:+6377927068"
-                  className=" hover:text-[rgb(255,80,45)]"
+                  href="tel:+6377927268"
+                  className=" hover:text-[rgb(255,80,45)] text-[14px]"
                 >
-                  +916377927068
+                  +916377927268
                 </a>
               </li>
               <li>
                 WhatsApp:{" "}
                 <a
-                  href="https://wa.me/6377927068"
+                  href="https://wa.me/6377927268"
                   target="_blank"
                   rel="noopener noreferrer"
-                  className=" hover:text-[rgb(255,80,45)]"
+                  className=" hover:text-[rgb(255,80,45)] text-[14px]"
                 >
                   Chat Now
                 </a>
@@ -86,7 +86,7 @@ export default function page() {
         <div className="mt-8 border-t border-gray-700 pt-4 text-center text-sm text-black font-bold">
           <div className="flex justify-center gap-4 mb-4">
             <a
-              href="https://wa.me/1234567890"
+              href="https://wa.me/6377927268"
               target="_blank"
               rel="noopener noreferrer"
               className="text-black hover:text-green-400 text-2xl"

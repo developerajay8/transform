@@ -11,12 +11,12 @@ export default function page() {
       <Navbar/>
 
       <section className="bg-white py-12 " >
-        <div className="font-handel max-w-[1204px] mx-auto px-[18px] xl:px-[0px] md:text-[40px] sm:text-[37px] text-[33px] pb-[14px] leading-[50px] font-semibold text-[rgb(255,80,45)]">
+        <div className="font-handel max-w-[1204px] mx-auto px-[18px] xl:px-[0px] md:text-[40px] sm:text-[34px] text-[26px] pb-[14px] md:leading-[50px] sm:leading-[44px] leading-[34px] font-semibold text-[rgb(255,80,45)]">
           PREMIUM PACKAGE - ONE-ON-ONE TRANSFORMATION
         </div>
         <div className="max-w-[1204px] mx-auto gap-5 px-[18px] xl:px-[0px] grid lg:grid-cols-2 grid-cols-1">
           <div className="col-span-1 my-auto">
-            <h3 className="font-handel sm:text-[30px] text-[26px] font-semibold text-black">
+            <h3 className="font-handel sm:text-[30px] text-[23px] font-semibold text-black">
               BASIC PACKAGE - PERSONAL GROWTH FOUNDATION
             </h3>
             <div className="flex items-center gap-6 pt-[20px] ">

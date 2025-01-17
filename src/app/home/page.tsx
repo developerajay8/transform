@@ -191,7 +191,7 @@ export default function page() {
       <section className="py-12 bg-black">
         <div className="max-w-[1204px] mx-auto px-[18px] xl-[0px]">
           <div className="">
-            <h2 className="uppercase sm:text-[50px] text-[44px] leading-[56px] font-handel text-[rgb(255,80,45)]">
+            <h2 className="uppercase md:text-[50px] sm:text-[44px] text-[34px] sm:leading-[56px] leading-[40px] font-handel text-[rgb(255,80,45)]">
               BENEFITS OF CONSULTING WITH SAKSHI{" "}
             </h2>
             <div className="flex items-center gap-8 pt-[15px] ">

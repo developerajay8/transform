@@ -27,10 +27,10 @@ export default function Page() {
         <div className="max-w-[1204px] px-[18px] xl:px-[0px] gap-5 mx-auto text-white grid lg:grid-cols-2 grid-cols-1">
           <div className="col-span-1">
             <div className="">
-              <h2 className="uppercase text-[50px] leading-[56px] font-handel">
+              <h2 className="uppercase md:text-[50px] sm:text-[40px] text-[34px] md:leading-[56px] sm:leading-[50px] leading-[40px] pb-[10px] font-handel">
                 WHY YOU MAY NEED CONSULTING{" "}
               </h2>
-              <span className="text-[20px] font-poppins mt-[30px] font-semibold">
+              <span className="sm:text-[20px] text-[18px] font-poppins mt-[30px] font-semibold">
                 IS IT TIME FOR A CHANGE?
               </span>
             </div>

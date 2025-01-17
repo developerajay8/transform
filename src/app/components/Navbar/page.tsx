@@ -92,7 +92,7 @@ export default function Page() {
                   About Sakshi
                 </Link>
                 <Link
-                  href="/Achievements"
+                  href="/achievements"
                   className="block text-black hover:text-orange-600"
                 >
                   Achievements

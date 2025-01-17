@@ -54,7 +54,7 @@ export default function page() {
                 Email:{" "}
                 <a
                   href="mailto:sakshi@example.com"
-                  className=" hover:text-[rgb(255,80,45)]"
+                  className=" hover:text-[rgb(255,80,45)] text-[14px]"
                 >
                   sakshi@example.com
                 </a>
@@ -62,19 +62,19 @@ export default function page() {
               <li>
                 Mobile:{" "}
                 <a
-                  href="tel:+6377927068"
-                  className=" hover:text-[rgb(255,80,45)]"
+                  href="tel:+6377927268"
+                  className=" hover:text-[rgb(255,80,45)] text-[14px]"
                 >
-                  +916377927068
+                  +916377927268
                 </a>
               </li>
               <li>
                 WhatsApp:{" "}
                 <a
-                  href="https://wa.me/6377927068"
+                  href="https://wa.me/6377927268"
                   target="_blank"
                   rel="noopener noreferrer"
-                  className=" hover:text-[rgb(255,80,45)]"
+                  className=" hover:text-[rgb(255,80,45)] text-[14px]"
                 >
                   Chat Now
                 </a>
@@ -86,7 +86,7 @@ export default function page() {
         <div className="mt-8 border-t border-gray-700 pt-4 text-center text-sm text-white font-bold">
           <div className="flex justify-center gap-4 mb-4">
             <a
-              href="https://wa.me/1234567890"
+              href="https://wa.me/6377927268"
               target="_blank"
               rel="noopener noreferrer"
               className="text-black hover:text-green-400 text-2xl"
