@@ -53,10 +53,10 @@ export default function page() {
               <li>
                 Email:{" "}
                 <a
-                  href="mailto:sakshi@example.com"
+                  href="mailto:transformwithsakshi@gmail.com"
                   className=" hover:text-[rgb(255,80,45)] text-[14px]"
                 >
-                  sakshi@example.com
+                  transformwithsakshi@gmail.com
                 </a>
               </li>
               <li>
