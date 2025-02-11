@@ -2,6 +2,9 @@
 
 import React, { useState } from "react";
 import Link from "next/link";
+import Image from "next/image";
+import Benifits from "../../../../public/WhatsApp Image 2025-02-01 at 13.58.29_8d61ae7a 1.png";
+
 
 
 export default function Page() {
@@ -14,13 +17,13 @@ export default function Page() {
             {/* Logo */}
             <div className="text-2xl font-bold text-white font-poppins">
               <Link href="/">
-                {/* <Image
-                  src={Logo}
+                <Image
+                  src={Benifits}
                   alt="Logo"
                   width={120}
                   height={50}
                   
-                /> */}TRANSFORM
+                />
               </Link>
             </div>
 
