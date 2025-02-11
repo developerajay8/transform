@@ -51,22 +51,22 @@ export default function page() {
               </span>
               <ul className="text-left sm:pl-[60px] pl-[24px] list-disc ">
                 <li className="text-black leading-relaxed  font-poppins ">
-                  <Link href={"/basic"} className="font-bold ">
+                  <a href={"/basic"} className="font-bold ">
                     Basic Package:
-                  </Link>{" "}
+                  </a>{" "}
                   Ideal for those seeking foundational support through regular
                   guidance.
                 </li>
                 <li className="text-black leading-relaxed font-poppins pt-[8px] ">
-                  <Link href={"/premium"} className="font-bold">
+                  <a href={"/premium"} className="font-bold">
                     Premium Package:
-                  </Link>{" "}
+                  </a>{" "}
                   For individuals looking for in-depth, in-person consultations.
                 </li>
                 <li className="text-black leading-relaxed font-poppins pt-[8px] ">
-                  <Link href={"/customize"} className="font-bold">
+                  <a href={"/customize"} className="font-bold">
                     Customized Package:
-                  </Link>{" "}
+                  </a>{" "}
                   A comprehensive transformation experience with extensive
                   support.
                 </li>
