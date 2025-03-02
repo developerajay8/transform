@@ -33,7 +33,10 @@ export default function page() {
                 </Link>
               </li>
               <li>
-                <Link href={"/achivement"} className="hover:text-[rgb(255,80,45)]">
+                <Link
+                  href={"/achivement"}
+                  className="hover:text-[rgb(255,80,45)]"
+                >
                   Achievements
                 </Link>
               </li>
@@ -59,7 +62,7 @@ export default function page() {
                   transformwithsakshi@gmail.com
                 </a>
               </li>
-              <li>
+              {/* <li>
                 Mobile:{" "}
                 <a
                   href="tel:+8209056518"
@@ -67,16 +70,16 @@ export default function page() {
                 >
                   +918209056518
                 </a>
-              </li>
-              <li>
-                WhatsApp:{" "}
+              </li> */}
+              <li className="cursor-pointer">
+                
                 <a
-                  href="https://wa.me/8209056518"
+                  href="https://forms.gle/sBR2zLyoTXa4YTNV7"
                   target="_blank"
                   rel="noopener noreferrer"
-                  className=" hover:text-[rgb(255,80,45)] text-[14px]"
+                  className=" hover:underline text-[rgb(255,80,45)] hover:text-[rgb(255,80,45)]"
                 >
-                  Chat Now
+                  Book your session now
                 </a>
               </li>
             </ul>
