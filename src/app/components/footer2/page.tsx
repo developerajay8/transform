@@ -59,26 +59,19 @@ export default function page() {
                   transformwithsakshi@gmail.com
                 </a>
               </li>
-              <li>
-                Mobile:{" "}
+              
+              <li className="cursor-pointer">
+                
                 <a
-                  href="tel:+8209056518"
-                  className=" hover:text-[rgb(255,80,45)] text-[14px]"
-                >
-                  +918209056518
-                </a>
-              </li>
-              <li>
-                WhatsApp:{" "}
-                <a
-                  href="https://wa.me/8209056518"
+                  href="https://forms.gle/sBR2zLyoTXa4YTNV7"
                   target="_blank"
                   rel="noopener noreferrer"
-                  className=" hover:text-[rgb(255,80,45)] text-[14px]"
+                  className=" hover:underline text-[rgb(255,80,45)] hover:text-[rgb(255,80,45)]"
                 >
-                  Chat Now
+                  Book your session now
                 </a>
               </li>
+              
             </ul>
           </div>
         </div>

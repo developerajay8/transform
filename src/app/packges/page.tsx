@@ -4,7 +4,7 @@ import Logo from "../../../public/image 1 (4).png";
 import Logos from "../../../public/F78FB7D5-D2E8-41EB-9A28-99BCE327BA3E-28314-000019438A04710F 1 (3).png";
 // import about from "../../../public/about 1.png";
 import Premium from "../../../public/image 2 (3).png";
-import Customize from "../../../public/image 3 (2).png";
+import Customize from "../../../public/IMG_9601[1] 1.png";
 import Basic from "../../../public/image 4 (2).png";
 import Firs from "../../../public/firships.png";
 import { FaArrowRightLong } from "react-icons/fa6";
@@ -211,7 +211,7 @@ export default function page() {
           </div>
           <div className="col-span-1">
             <div className="">
-              <Image src={Customize} alt="" className="h-[540px]" />
+              <Image src={Customize} alt="" className="h-[650px]" />
             </div>
           </div>
         </div>
