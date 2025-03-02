@@ -33,7 +33,7 @@ export default function page() {
                 </Link>
               </li>
               <li>
-                <Link href={"/achievements"} className="hover:text-[rgb(255,80,45)]">
+                <Link href={"/achivement"} className="hover:text-[rgb(255,80,45)]">
                   Achievements
                 </Link>
               </li>

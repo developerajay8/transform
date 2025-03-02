@@ -39,7 +39,7 @@ export default function Page() {
                 About Sakshi
               </Link>
               <Link
-                href="/achievements"
+                href="/achivement"
                 className="text-white hover:text-orange-600"
               >
                 Achievements
@@ -95,7 +95,7 @@ export default function Page() {
                   About Sakshi
                 </Link>
                 <Link
-                  href="/achievements"
+                  href="/achivement"
                   className="block text-black hover:text-orange-600"
                 >
                   Achievements
