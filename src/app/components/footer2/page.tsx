@@ -62,16 +62,16 @@ export default function page() {
               <li>
                 Mobile:{" "}
                 <a
-                  href="tel:+6377927268"
+                  href="tel:+8209056518"
                   className=" hover:text-[rgb(255,80,45)] text-[14px]"
                 >
-                  +916377927268
+                  +918209056518
                 </a>
               </li>
               <li>
                 WhatsApp:{" "}
                 <a
-                  href="https://wa.me/6377927268"
+                  href="https://wa.me/8209056518"
                   target="_blank"
                   rel="noopener noreferrer"
                   className=" hover:text-[rgb(255,80,45)] text-[14px]"
@@ -86,7 +86,7 @@ export default function page() {
         <div className="mt-8 border-t border-gray-700 pt-4 text-center text-sm text-white font-bold">
           <div className="flex justify-center gap-4 mb-4">
             <a
-              href="https://wa.me/6377927268"
+              href="https://wa.me/8209056518"
               target="_blank"
               rel="noopener noreferrer"
               className="text-black hover:text-green-400 text-2xl"
