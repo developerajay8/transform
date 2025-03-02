@@ -1,12 +1,12 @@
 import React from 'react'
 import Image from "next/image";
-import Logo from "../../../public/image 1 (3).png";
+import Logo from "../../../public/about 1.png";
 import Logos from "../../../public/F78FB7D5-D2E8-41EB-9A28-99BCE327BA3E-28314-000019438A04710F 1 (3).png";
 // import about from "../../../public/about 1.png";
-import Premium from "../../../public/image 2 (2).png";
-import Customize from "../../../public/image 3 (1).png";
-import Basic from "../../../public/image 4 (1).png";
-import Firs from "../../../public/firststape.png";
+import Premium from "../../../public/about 1.png";
+import Customize from "../../../public/about 1.png";
+import Basic from "../../../public/about 1.png";
+import Firs from "../../../public/about 1.png";
 import { FaArrowRightLong } from "react-icons/fa6";
 
 import Navbar from '../components/Navbar/page'
