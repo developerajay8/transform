@@ -1,12 +1,12 @@
 import React from 'react'
 import Image from "next/image";
-import Logo from "../../../public/about 1.png";
+import Logo from "../../../public/image 1 (4).png";
 import Logos from "../../../public/F78FB7D5-D2E8-41EB-9A28-99BCE327BA3E-28314-000019438A04710F 1 (3).png";
 // import about from "../../../public/about 1.png";
-import Premium from "../../../public/about 1.png";
-import Customize from "../../../public/about 1.png";
-import Basic from "../../../public/about 1.png";
-import Firs from "../../../public/about 1.png";
+import Premium from "../../../public/image 2 (3).png";
+import Customize from "../../../public/image 3 (2).png";
+import Basic from "../../../public/image 4 (2).png";
+import Firs from "../../../public/firships.png";
 import { FaArrowRightLong } from "react-icons/fa6";
 
 import Navbar from '../components/Navbar/page'
@@ -57,20 +57,20 @@ export default function page() {
               </span>
               <ul className="text-left sm:pl-[60px] pl-[24px] list-disc ">
                 <li className="text-black leading-relaxed  font-poppins ">
-                  <Link href={"./basic"} className="font-bold ">
+                  <Link href={"#"} className="font-bold ">
                     Basic Package:
                   </Link>{" "}
                   Ideal for those seeking foundational support through regular
                   guidance.
                 </li>
                 <li className="text-black leading-relaxed font-poppins pt-[8px] ">
-                  <Link href={"./premium"} className="font-bold">
+                  <Link href={"#"} className="font-bold">
                     Premium Package:
                   </Link>{" "}
                   For individuals looking for in-depth, in-person consultations.
                 </li>
                 <li className="text-black leading-relaxed font-poppins pt-[8px] ">
-                  <Link href={"./customize"} className="font-bold">
+                  <Link href={"#"} className="font-bold">
                     Customized Package:
                   </Link>{" "}
                   A comprehensive transformation experience with extensive

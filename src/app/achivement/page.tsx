@@ -1,6 +1,6 @@
 import React from "react";
 import Image from "next/image";
-import about from "../../../public/about 1.png";
+import Longsamay from "../../../public/longtem.png";
 import { FaArrowRightLong } from "react-icons/fa6";
 import Navbar from "../components/Navbar/page";
 import Footer2 from '../components/footer2/page';
@@ -98,13 +98,19 @@ export default function Page() {
         </div>
       </section>
 
-      <section className="bg-gray-50 py-12 ">
-        <div className="max-w-[1204px] mx-auto px-[18px] xl:px-[0px]">
-          <h2 className="text-[34px] font-handel font-bold text-[rgb(255,80,45)] uppercase">
+      <section className="bg-gray-50  ">
+        <div className="max-w-[1920px] mx-auto ">
+          {/* <h2 className="text-[34px] font-handel font-bold text-[rgb(255,80,45)] uppercase">
             News & Awards
-          </h2>
+          </h2> */}
+<Image
+                src={Longsamay}
+                alt="Home Banner"
+                className=" "
+              />
+
         </div>
-        <div className="max-w-[1204px] mx-auto px-[18px] xl:px-[0px] grid md:grid-cols-2 grid-cols-1 gap-8">
+        {/* <div className="max-w-[1204px] mx-auto px-[18px] xl:px-[0px] grid md:grid-cols-2 grid-cols-1 gap-8">
           <div className="col-span-1 my-auto">
             <p className="text-black font-poppins font-bold sm:text-[20px] text-[18px]  ">
               Sakshi Bhogal received the award for India’s Best Personality
@@ -135,7 +141,7 @@ export default function Page() {
             empowering advice continues to inspire individuals and brands alike,
             making a lasting impact in the world of self-improvement.
           </p>
-        </div>
+        </div> */}
       </section>
 
       <div>

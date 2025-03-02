@@ -8,7 +8,8 @@ import Footer from "../components/footer/page";
 import Whyneed from "../../../public/danie-franco-7KHCNCddn2U-unsplash 1.png";
 import Whyneed2 from "../../../public/nik-shuliahin-BuNWp1bL0nc-unsplash 1.png";
 import { FaArrowRightLong } from "react-icons/fa6";
-import Link from "next/link";
+import Firs from "../../../public/firships.png";
+
 
 export default function page() {
   return (
@@ -184,8 +185,8 @@ export default function page() {
       </section>
 
       <section className="bg-black py-12 ">
-        <div className="max-w-[1204px] mx-auto px-[18px] xl:px-[0px] grid md:grid-cols-2 grid-cols-1">
-          <div className="col-span-1">
+        <div className="max-w-[1204px] mx-auto px-[18px] xl:px-[0px] ">
+          {/* <div className="col-span-1">
             <div className="">
               <h2 className="font-bold font-handel text-[white] sm:text-[40px] text-[34px]">
               TAKE THE FIRST STEP
@@ -211,7 +212,13 @@ export default function page() {
           className="h-[500px]"
         />
             </div>
-          </div>
+          </div> */}
+<Image
+                  src={Firs}
+                  alt="Home Banner"
+                  className=" "
+                />
+
         </div>
       </section>
 
